@@ -1,13 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace ConsoleApp4
+namespace LeetCodeSolutions
+
 {
-    class Program
+    class ValidSudoku
     {
-        static void Main(string[] args)
+        static void BasicTest()
         {
-            Solution solution = new Solution();
+            ValidSudoku solution = new ValidSudoku();
             bool output;
             char[,] input =
             {
@@ -27,10 +28,8 @@ namespace ConsoleApp4
 
             Console.ReadLine();
         }
-    }
 
-    public class Solution
-    {
+
         public bool IsValidSudoku(char[,] board)
         {
             bool[] seenX;
