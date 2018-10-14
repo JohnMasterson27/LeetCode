@@ -56,16 +56,16 @@
     <Otherwise />
   </Choose>
   <ItemGroup>
+    <Compile Include="LeetCodeSolutionsTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ValidSudokuTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ValidSudoku\ValidSudoku.csproj">
-      <Project>{D431240A-0EDF-40DD-B8A1-5F8240082B22}</Project>
-      <Name>ValidSudoku</Name>
+    <ProjectReference Include="..\LeetCodeSolutions\LeetCodeSolutions.csproj">
+      <Project>{d431240a-0edf-40dd-b8a1-5f8240082b22}</Project>
+      <Name>LeetCodeSolutions</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>
